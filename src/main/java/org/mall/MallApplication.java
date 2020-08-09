@@ -13,5 +13,7 @@ public class MallApplication {
     public static void main(String[] args) {
         // 程序启动入口,启动嵌入式的 Tomcat 并初始化 Spring 环境及其各 Spring 组件
         SpringApplication.run(MallApplication.class,args);
+        System.out.println("看开点链接发来的房价");
     }
 }
+
